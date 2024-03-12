@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bdGrid {
+    display: flex;
+    max-width: var(--bgGrid--Width);
+    max-height: 100vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+:root {
+    --white: #f7f7f7;
+    --bg: #272727;
+    --bg--Light: #3b3b3b;
+    --headerbg: #1f1f1f;
+    --redtext: #FF0000;
+}
+
+:root {
+    --font-size: 2rem;
+    --bgGrid--Width: 70vw;
+    --bgGrid--height: 100vh;
+}
+
+html {
+    scroll-behavior: smooth;
+}

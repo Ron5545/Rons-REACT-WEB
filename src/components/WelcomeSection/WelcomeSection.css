@@ -1,0 +1,45 @@
+.welcomeSection {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bg);
+}
+
+.welcomeContainer {
+    height: 100%;
+}
+
+.titleContainer {
+    font-size: var(--font-size);
+    font-weight: 900;
+    color: var(--white);
+    place-content: center;
+    margin: 20vh 0;
+}
+
+#contactBtn {
+    border: none;
+    background-color: var(--redtext);
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 0.5em;
+    width: 80px;
+    cursor: pointer;
+}
+
+/* Welcome Animation */
+
+.titleContainer {
+    width: 350px;
+    overflow: hidden;
+}
+
+.titleContainer .text.secoundText {
+    position: relative;
+    color: var(--redtext);
+    font-size: var(--welcomeAnimation-span);
+    font-weight: 600;
+}
+
+.titleContainer .text.firstText {
+    color: #FFF;
+}
