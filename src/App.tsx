@@ -5,7 +5,6 @@ import Navbar from './components/navBar/navBar'
 
 function App() {
 
-  /* const mainDiv = document.getElementById("root")!; */
 
   return (
 
