@@ -1,6 +1,5 @@
 import { content } from "../../content";
-
-import './styles/navbar.css'
+import '../styles/navbar.css'
 
 function Navbar() {
     const { nav } = content;
