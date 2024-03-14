@@ -1,22 +1,17 @@
-import ContactModal from './components/Contact/contact'
-import './App.css'
-import WelcomeSection from './components/WelcomeSection/welcomeSection'
-import Navbar from './components/navBar/navBar'
-
-function App() {
+import { Component } from 'react'
+import WelcomeSection from './components/page-ui/welcomeSection'
+import Navbar from './components/page-ui/navBar'
 
 
-  return (
-
-    <div>
-
-      <Navbar />
-      <WelcomeSection />
-      <ContactModal />
-
-    </div>
-
-  )
+export class App extends Component {
+  render() {
+    return (
+      <div>
+        <WelcomeSection />
+        <Navbar />
+      </div>
+    )
+  }
 }
 
 export default App

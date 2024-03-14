@@ -1,37 +1,32 @@
-
-// import icons from react-icons
-import { TbSmartHome } from "react-icons/tb";
-import { BiUser } from "react-icons/bi";
-import { MdOutlinePermContactCalendar } from "react-icons/md";
-import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
-
+import { FaHome, FaUser, FaCode, FaProjectDiagram, FaEnvelope } from "react-icons/fa";
 
 export const content = {
     nav: [
         {
-            id: "0",
+            id: "1",
             link: "#home",
-            icon: TbSmartHome,
+            icon: FaHome,
+
         },
         {
-            id: "1",
+            id: "2",
             link: "#skills",
-            icon: BiUser,
+            icon: FaUser,
         },
         {
             id: "3",
             link: "#services",
-            icon: RiServiceLine,
+            icon: FaCode,
         },
         {
             id: "4",
             link: "#projects",
-            icon: RiProjectorLine,
+            icon: FaProjectDiagram,
         },
         {
             id: "5",
-            link: "#contact",
-            icon: MdOutlinePermContactCalendar,
+            link: "contactModal",
+            icon: FaEnvelope,
         },
     ]
-}
+};
